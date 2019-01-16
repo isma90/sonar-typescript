@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "outDir": "out",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "app/types/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
